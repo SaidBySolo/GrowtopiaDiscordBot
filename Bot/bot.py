@@ -23,7 +23,7 @@ def load_cogs(bot):
             failed.append(extension)
 
     if failed:
-        print(f"\n{' '.join(failed)}�?로드?�는???�패?�습?�다.\n")
+        print(f"\n{' '.join(failed)}로드에 실패하였습니다.\n")
     return failed
     
 
